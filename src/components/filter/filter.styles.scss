@@ -1,0 +1,66 @@
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 80%;
+  border: 1px solid black;
+  margin: 10px 7.5px 15px;
+  background: #f1f1f1;
+}
+.sort {
+  width: 25px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #b43757;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  margin: 2px;
+}
+
+.dropbtn {
+  background-color: #b43757;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  font-style: italic;
+
+  border: none;
+  margin: 4px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  width: 100%;
+  //display: block;
+}
+.dropdown-content a:hover {
+  background-color: #9e4448;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #e7abae;
+}
